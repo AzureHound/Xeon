@@ -1,0 +1,102 @@
+[
+    {
+        "auto_start": true,
+        "brightness": 100,
+        "devices": [
+            {
+                "brightness": 100,
+                "description": "NZXT Hue 2 Device",
+                "is_percentage_fill": false,
+                "is_segment": false,
+                "location": "HID: \\\\?\\HID#VID_1E71&PID_2007#8&1f09b849&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+                "name": "NZXT Kraken X3 Series",
+                "reverse": false,
+                "segment_idx": -1,
+                "serial": "00000000001A",
+                "vendor": "NZXT",
+                "version": "2.1.0",
+                "zone_idx": 2
+            },
+            {
+                "brightness": 100,
+                "description": "NZXT Hue 2 Device",
+                "is_percentage_fill": false,
+                "is_segment": true,
+                "location": "HID: \\\\?\\HID#VID_1E71&PID_2007#8&1f09b849&0&0000#{4d1e55b2-f16f-11cf-88cb-001111000030}",
+                "name": "NZXT Kraken X3 Series",
+                "reverse": false,
+                "segment_idx": 0,
+                "serial": "00000000001A",
+                "vendor": "NZXT",
+                "version": "2.1.0",
+                "zone_idx": 2
+            }
+        ],
+        "fps": 60,
+        "hardware": 0,
+        "hardware_feature": 16,
+        "hardware_identifier": "/amdcpu/0/load/0",
+        "measure_color": {
+            "color_stops": [
+                [
+                    50.0,
+                    16777215
+                ],
+                [
+                    70.0,
+                    65535
+                ],
+                [
+                    80.0,
+                    255
+                ]
+            ]
+        },
+        "name": "CPU",
+        "refresh_interval": 100,
+        "running": true
+    },
+    {
+        "auto_start": true,
+        "brightness": 100,
+        "devices": [
+            {
+                "brightness": 100,
+                "description": "RGB Fusion GPU",
+                "is_percentage_fill": false,
+                "is_segment": false,
+                "location": "I2C: NVidia NvAPI I2C on GPU 0, address 0x62",
+                "name": "Gigabyte RTX3060 Gaming OC 12G",
+                "reverse": false,
+                "segment_idx": -1,
+                "serial": "",
+                "vendor": "Gigabyte",
+                "version": "",
+                "zone_idx": 0
+            }
+        ],
+        "fps": 60,
+        "hardware": 9,
+        "hardware_feature": 0,
+        "hardware_identifier": "/gpu-nvidia/0/temperature/0",
+        "measure_color": {
+            "color_stops": [
+                [
+                    50.0,
+                    3669760
+                ],
+                [
+                    70.0,
+                    65535
+                ],
+                [
+                    80.0,
+                    255
+                ]
+            ]
+        },
+        "name": "GPU",
+        "refresh_interval": 100,
+        "running": true
+    }
+]
