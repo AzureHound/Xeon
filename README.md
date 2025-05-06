@@ -5,6 +5,7 @@ winget install --id=KamilSzymborski.WindowCenteringHelper -e
 winget install --id=CalcProgrammer1.OpenRGB  -e
 winget install -e --id EpicGames.EpicGamesLauncher
 winget install --id DEVCOM.JetBrainsMonoNerdFont -e
+winget install -e --id EpicGames.EpicGamesLauncher
 
 winget upgrade
 winget upgrade --all
